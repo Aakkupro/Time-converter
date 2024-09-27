@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time Converter</h1>
+        <p>Quickly convert between 12-hour (AM/PM) and 24-hour time formats.</p>
+        <label for="timeInput">Enter time (e.g. 02:30 PM or 14:30)</label>
+        <input type="text" id="timeInput" placeholder="e.g. 02:30 PM or 14:30">
+        <p id="alert_msg"></p>
+        <h3 id="result"></h3>
+        <button onclick="convertTime()">Convert</button>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
