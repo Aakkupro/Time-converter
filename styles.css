@@ -29,8 +29,9 @@ h1{
     text-shadow: 1px 1px 1px #070707;
 }
 #result{
-    color: #48abc4;
+    color: #388598;
     text-shadow: 1px 1px 1px #131393;
+    font-size: 1.5em;
 }
 
 #alert_msg{
